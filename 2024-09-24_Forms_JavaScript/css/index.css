@@ -1,0 +1,49 @@
+input[type='number'] {
+    -moz-appearance:textfield;
+    width: 4rem;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:required:invalid{
+    border: 1px solid var(--bs-danger);
+}
+input:required:valid{
+    border: 1px solid var(--bs-success);
+}
+
+
+button{
+    margin-top: 0.5rem;
+}
+
+/*[data-bs-theme=dark] {
+--bs-body-color-rgb: 32, 18, 38 !important;
+--bs-body-bg: #09060d !important;
+--bs-emphasis-color: #ac725b !important;
+--bs-secondary-color: #734d49 !important;
+--bs-info: #d9bfa9 !important;
+--bs-accent1: #552f3 !important;
+--bs-primary-border-subtle: #626e94 !important;
+--bs-accent3: #64796c !important;
+--bs-success: #30595e !important;
+--bs-btn-bg: #6f74d5 !important;
+--bs-danger: #720129 !important;
+
+}*/
+.feedback
+{
+    margin-top: 0.5rem;
+}
+.feedback.invalid
+{
+    color: var(--bs-danger);
+}
+.feedback.valid
+{
+    color: var(--bs-success);
+}
