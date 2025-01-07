@@ -20,7 +20,7 @@ A modern registration system for tech conference attendees built with HTML5, Jav
 - Session timing preferences
 - Terms and conditions acceptance
 
-## Technical Details
+## Details
 
 - Built with Bootstrap for modern styling
 - Modular JavaScript architecture
